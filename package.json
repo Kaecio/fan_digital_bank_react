@@ -9,7 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "jest --config=jest.config.cjs",
-    "test:watch": "jest test --watch"
+    "test:watch": "jest test --watch",
+    "prod": "NODE_ENV=production vite"
   },
   "husky": {
     "hooks": {
