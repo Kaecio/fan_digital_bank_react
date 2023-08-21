@@ -11,6 +11,11 @@
     "test": "jest --config=jest.config.cjs",
     "test:watch": "jest test --watch"
   },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix","yarn test --bail"
+    ]
+  },
   "dependencies": {
     "@babel/preset-typescript": "^7.22.5",
     "@testing-library/jest-dom": "^6.0.1",
