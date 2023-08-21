@@ -1,3 +1,7 @@
 export const App = () => {
-  return <div>Fan Digital Bank</div>;
+  return (
+    <main>
+      <h1>Fan Digital Bank</h1>
+    </main>
+  );
 };
