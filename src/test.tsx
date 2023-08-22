@@ -8,7 +8,7 @@ describe('<App />', () => {
     render(<App />);
 
     expect(
-      screen.getByRole('heading', { name: /Fan Digital Banks/i })
+      screen.getByRole('heading', { name: /Fan Digital Bank/i })
     ).toBeInTheDocument();
   });
 });

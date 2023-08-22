@@ -1,7 +1,9 @@
+import { Home } from './pages/Home';
+
 export const App = () => {
   return (
-    <main>
-      <h1>Fan Digital Bank</h1>
-    </main>
+    <>
+      <Home />
+    </>
   );
 };
